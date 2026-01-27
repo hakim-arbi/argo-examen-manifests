@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: examen-2026
+  namespace: examen-26
 spec:
   type: ClusterIP
   selector:
