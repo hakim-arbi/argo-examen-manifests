@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app-demo
+  name: examen-2026
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app-demo
+      app: examen-2026
   template:
     metadata:
       labels:
-        app: app-demo
+        app: examen-2026
     spec:
       containers:
-        - name: app-demo
+        - name: examen-2026
           image: medhakimarbi/frontend:1.0.0
           ports:
             - containerPort: 80
