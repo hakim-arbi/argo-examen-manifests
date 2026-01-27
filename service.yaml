@@ -4,9 +4,10 @@ metadata:
   name: examen-2026
   namespace: examen-26
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: examen-2026
   ports:
     - port: 80
       targetPort: 80
+      nodePort: 30080
