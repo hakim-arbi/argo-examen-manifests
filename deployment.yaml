@@ -4,7 +4,7 @@ metadata:
   name: examen-2026
   namespace: examen-26
 spec:
-  replicas: 5
+  replicas: 8
   selector:
     matchLabels:
       app: examen-2026
