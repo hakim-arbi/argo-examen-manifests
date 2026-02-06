@@ -4,7 +4,7 @@ metadata:
   name: examen-2026
   namespace: examen-26
 spec:
-  replicas: 4
+  replicas: 5
   selector:
     matchLabels:
       app: examen-2026
@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: examen-2026
-          image: medhakimarbi/medinsight-ui:1.0.0
+          image: medhakimarbi/medinsight-ui:1.0.1
           ports:
             - containerPort: 80
