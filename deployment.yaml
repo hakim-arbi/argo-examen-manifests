@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: examen-2026
-          image: medhakimarbi/medinsight-ui:latest
+          image: medhakimarbi/medinsight-ui:1.0.0
           ports:
             - containerPort: 80
